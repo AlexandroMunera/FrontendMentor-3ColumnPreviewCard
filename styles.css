@@ -1,0 +1,102 @@
+body {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 86%;
+  margin: 70px 0;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section .card {
+  padding: 50px;
+  color: rgba(255, 255, 255, 0.75);
+  min-width: 220px;
+  max-width: 220px;
+  min-height: 400px;
+}
+
+section .card .card__title {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+}
+
+section .card .card__button {
+  width: 60%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-weight: 700;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+section .card .card__button:hover {
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+section .card1 {
+  background-color: #e38826;
+}
+
+section .card1 .card__button {
+  color: #e38826;
+}
+
+section .card1 .card__button:hover {
+  background-color: #e38826;
+}
+
+section .card2 {
+  background-color: #006970;
+}
+
+section .card2 .card__button {
+  color: #006970;
+}
+
+section .card2 .card__button:hover {
+  background-color: #006970;
+}
+
+section .card3 {
+  background-color: #004241;
+}
+
+section .card3 .card__button {
+  color: #004241;
+}
+
+section .card3 .card__button:hover {
+  background-color: #004241;
+}
+/*# sourceMappingURL=styles.css.map */
